@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ekart
-          image: priya123456/ekart:latest # Image that will be used to containers in the cluster
+          image: 590184033036.dkr.ecr.eu-west-2.amazonaws.com/jenkins-pipeline-ecr-repo:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070 # The port that the container is running on in the cluster
